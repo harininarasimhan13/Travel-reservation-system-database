@@ -6,8 +6,7 @@ SETUP AND INSTALLATION
 * Installation of these modules vary by operating system and package manager (i.e. pip, conda, brew, etc.).   
 * MySQL must be installed on the user's system. Installation varies by operating system.  
 * Run trs_database.sql script on MySQL server and ensure that database was created on the server. This can be easily done through MySQL workbench.   
-* Run trs_procedures.sql script on MySQL server and ensure that stored procedures and views were created on the server.     
-* This can be easily done through MySQL workbench.
+* Run trs_procedures.sql script on MySQL server and ensure that stored procedures and views were created on the server.This can be easily done through MySQL           workbench.
 * To connect GUI to MySQL database and server, user must open trs_gui.py and input their MySQL host and user IDs, as well as their root password. This section can     be found between lines 14 and 20:
 ```
 #connect to mysql server
